@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767431667643",
+    "project_id": "jiu-jitsu-6c568",
+    "storage_bucket": "jiu-jitsu-6c568.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767431667643:android:b69e3584db7269a9829e9e",
+        "android_client_info": {
+          "package_name": "br.com.ifma.jiu_jitsu_acad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767431667643-3lic0ibtiea06h7jjqbvpnamo9ba80t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5N8iG_mnCTYVyxwzBdV_SmmEqFXiXPa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767431667643-3lic0ibtiea06h7jjqbvpnamo9ba80t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
