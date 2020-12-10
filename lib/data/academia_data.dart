@@ -4,7 +4,7 @@ class Academia {
   String acadId;
   String nome;
   String registro;
-
+  
   Academia();
 
   Academia.fromDocument(DocumentSnapshot document) {

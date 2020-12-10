@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:jiu_jitsu_acad/models/treinamento_model.dart';
 import 'package:jiu_jitsu_acad/models/user_model.dart';
 import 'package:jiu_jitsu_acad/views/login_screen.dart';
@@ -25,6 +26,11 @@ class MyApp extends StatelessWidget {
                     primarySwatch: Colors.grey,
                     visualDensity: VisualDensity.adaptivePlatformDensity,
                   ),
+                  localizationsDelegates: [
+                    GlobalMaterialLocalizations.delegate,
+                    GlobalWidgetsLocalizations.delegate
+                  ],
+                  supportedLocales: [const Locale('pt', 'BR')],
                   home: LoginScreen()));
         },
       ),

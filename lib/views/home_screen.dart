@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jiu_jitsu_acad/components/card_acad.dart';
+import 'package:jiu_jitsu_acad/models/treinamento_model.dart';
 import 'package:jiu_jitsu_acad/models/user_model.dart';
 import 'package:jiu_jitsu_acad/render/listAcademia.dart';
 import 'package:jiu_jitsu_acad/views/login_screen.dart';
@@ -10,6 +10,11 @@ class JiuJitsuApp extends StatefulWidget {
 }
 
 class _JiuJitsuAppState extends State<JiuJitsuApp> {
+  @override
+  void initState() {
+    super.initState();
+    Treinamento.of(context).registrarTreinamento();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
