@@ -30,10 +30,10 @@ Para obter ajuda para começar a usar o Flutter
 </div>
 
 ### Funcionamento
-[x] Ao se cadadstrar o no app o usuario adiciona os seus horiarios de treinos na sua academia
-[x] O endereco da academia e salvo e convertido para latitude e longitude
-[x] No horario de Treino do usuario a localização do usuario é comparada com o endereço da academia
-[x] Caso o a distancia for em torno de 100m a presença e registrada caso contrario registra-se uma falta
+- [x] Ao se cadadstrar o no app o usuario adiciona os seus horiarios de treinos na sua academia
+- [x] O endereco da academia e salvo e convertido para latitude e longitude
+- [x] No horario de Treino do usuario a localização do usuario é comparada com o endereço da academia
+- [x] Caso o a distancia for em torno de 100m a presença e registrada caso contrario registra-se uma falta
 
 ## Autores &copy;
  - [Luis Felipe Porto](https://github.com/Luis-Felipe-Porto)
